@@ -1,0 +1,23 @@
+body{
+    background-color: teal;
+    /* background-image: url("/static/images/2.gif");
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+table{
+    background-color: black;
+    color: white;
+    margin-left: 670px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline dashed;
+}
+h3{
+    color: red;
+    text-align: center;
+    background-color: bisque;
+}
+.image{
+    border-radius: 30%;
+}

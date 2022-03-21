@@ -1,0 +1,30 @@
+body{
+    background-image: url("/static/images/img5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#div1{
+    width: 550px;
+    padding: 30px;
+    background-color: black;
+    color: gold;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+#form{
+   
+    margin-left: 50px;
+}
+#btn{
+    margin-left: 150px;
+}
+#h{
+    color: gold;
+    text-decoration: underline gold;
+    margin-bottom: 20px;
+    font-family: cursive;
+   
+}
+#id_Name{
+    text-align: center;
+}

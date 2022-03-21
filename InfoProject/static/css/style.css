@@ -1,0 +1,67 @@
+body{
+    background-image: url("/static/images/bg4.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+#divc{
+    background-image: linear-gradient(black,rgb(7, 7, 77));
+    color: white;
+    box-shadow: 2px 1px 2px grey;
+}
+#nav{
+    background-image: linear-gradient(black,rgb(7, 7, 77));
+    color: white;
+}
+h4{
+    font-family: cursive;
+    margin-left: 330px;
+    
+}
+#b1 #b2 #b3 #b4 #b5 #b6 ,a{
+    text-decoration: none;
+    color: white;
+}
+#b1 #b2 #b3 #b4 #b5 #b6 ,a:hover{
+    text-decoration: none;
+    color: red;
+
+}
+footer{
+    margin-top: 100px;
+    background-color: black;
+}
+h2{
+    color: skyblue;
+    text-align: center;
+    background-color: black;
+}
+header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#dm{
+    background-image: linear-gradient(black,rgb(7, 7, 77));
+    opacity: 0.1px;
+}
+#dm li a{
+    color: white;
+}
+#dm2{
+    background-image: linear-gradient(black,rgb(7, 7, 77));
+    opacity: 0.1px;
+}
+#dm2 li a{
+    color: white;
+}
+#dm2 li a:hover{
+    color: red;
+}
+h1{
+    background-color: black;
+    color: red;
+    text-align: center;
+    font-family: fantasy;
+    margin-top:150px;
+}
