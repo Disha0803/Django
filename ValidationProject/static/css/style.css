@@ -1,0 +1,13 @@
+/* body{
+    background-image: url("/static/images/img5.jpg");
+} */
+.box{
+    text-align: center;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    padding: 100px;
+    background-color: rgb(0, 0, 0,0.5);
+    color: white;
+    margin-top: 100px;
+}

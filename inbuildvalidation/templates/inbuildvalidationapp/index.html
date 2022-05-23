@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <form action="" method="post">
+            {% if check %}
+            <div class="scbox">
+                <h4>Hi {{x}}</h4>
+                
+            </div>
+            {% else %}
+            {{form.as_p}}
+            {% csrf_token %}
+            <button type="submit" class="btn-group btn-warning" id="btn">Submit</button>
+        </form>
+        {% endif %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+.btn-primary{
+    background-image: linear-gradient(rgb(58, 58, 223),rgb(6, 6, 138),rgb(5, 5, 71));
+}
+.btn-secondary{
+    background-image: linear-gradient(gray,rgb(97, 86, 86),rgb(53, 51, 51));
+}
+.btn-success{
+    background-image: linear-gradient(rgb(106, 233, 106),rgb(19, 151, 19),rgb(4, 37, 4));
+}
+.btn-danger{
+    background-image: linear-gradient(rgb(238, 74, 74),rgb(182, 24, 24),rgb(107, 14, 14));
+}
+.btn-warning{
+    background-image: linear-gradient(rgb(243, 207, 45),rgb(252, 187, 8),rgb(255, 157, 0));
+}
+.btn-info{
+    background-image: linear-gradient(rgb(47, 194, 194),teal,rgb(11, 73, 73));
+}
+.btn-dark{
+    background-image: linear-gradient(gray,rgb(58, 55, 55),rgb(29, 28, 28));
+}
+
+
+.bg-primary{
+    background-image: linear-gradient(rgb(58, 58, 223),rgb(6, 6, 138),rgb(5, 5, 71));
+}
+.bg-secondary{
+    background-image: linear-gradient(gray,rgb(97, 86, 86),rgb(53, 51, 51));
+}
+.bg-success{
+    background-image: linear-gradient(rgb(106, 233, 106),rgb(19, 151, 19),rgb(4, 37, 4));
+}
+.bg-danger{
+    background-image: linear-gradient(rgb(238, 74, 74),rgb(182, 24, 24),rgb(107, 14, 14));
+}
+.bg-warning{
+    background-image: linear-gradient(rgb(248, 248, 80),rgb(255, 208, 0),rgb(255, 157, 0));
+}
+.bg-info{
+    background-image: linear-gradient(rgb(47, 194, 194),teal,rgb(11, 73, 73));
+}
+.bg-light{
+    background-image: linear-gradient(white,gray,rgb(51, 48, 48));
+}
+.bg-dark{
+    background-image: linear-gradient(rgb(41, 40, 40),rgb(7, 7, 7),rgb(29, 28, 28));
+}

@@ -1,0 +1,28 @@
+<!doctype html>
+{% extends 'GenesisApp/homepage.html' %}
+{% block my_block %}
+<h2 style="font-family: cursive;padding: 20px;color: white;" align="center">Already Registered!!!</h2>
+      {% if result %}
+      <table class="table table-dark table-striped " style="width: 1000px;" align="center">
+        
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Mobile</th>
+            <th>Redg No</th>
+            <th>Event</th>
+          </tr>
+          {% for i in result %}
+          <tr>
+            <td>{{i.Name}}</td>
+            <td>{{i.Email}}</td>
+            <td>{{i.Mobile}}</td>
+            <td>{{i.Redgno}}</td>
+            <td>{{i.Event}}</td>
+          </tr>
+          {% endfor %}
+      </table>
+      {% else %}
+            <p>Till Now no one is registered ! Register Asap...</p>
+            {%endif%}
+{% endblock %}
