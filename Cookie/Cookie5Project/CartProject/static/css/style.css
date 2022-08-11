@@ -1,0 +1,8 @@
+body{
+    /* background-image: url('/static/images/bg8.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(skyblue,rgb(82, 82, 241),blue,rgb(3, 3, 95),rgb(2, 2, 40));
+    height: 621px;
+    
+}
