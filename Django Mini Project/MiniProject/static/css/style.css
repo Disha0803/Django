@@ -1,0 +1,23 @@
+body{
+    background-image: url('/static/images/bgg7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#c2{
+    background-image: url('/static/images/bgg8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(100%);
+    font-family: 'Rubik Marker', 'Hatch','Silkscreen', 'cursive';
+    line-height: 30px;
+}
+
+#c3{
+    background-image: url('/static/images/bgg8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(100%);
+    line-height: 30px;
+}
