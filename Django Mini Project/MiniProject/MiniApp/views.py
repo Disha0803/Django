@@ -17,9 +17,6 @@ def contactusView(request):
 @login_required
 def coursesView(request):
     return render(request,'MiniApp/courses.html')
-@login_required
-def dashboardView(request):
-    return render(request,'MiniApp/dashboard.html')  
 def logoutView(request):
     return render(request,'MiniApp/logout.html')  
 
@@ -32,3 +29,7 @@ def SignupView(request):
         user.save()
         return HttpResponseRedirect('/accounts/login')
     return render(request,'MiniApp/signup.html',{'form':form})
+@login_required
+def dashboardView(request):
+    return render(request,'MiniApp/dashboard.html')  
+
